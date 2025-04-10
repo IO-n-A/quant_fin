@@ -23,5 +23,11 @@ git add .
 # Parameterize the commit message, defaulting to a message if not provided
 COMMIT_MESSAGE=${COMMIT_MESSAGE:-"Auto commit: $(date)"}
 git commit -m "$COMMIT_MESSAGE"
+
 git branch -M io-n-a
+
+# Pull the latest changes from the remote io-n-a branch, rebasing your commit on top
+git pull --rebase origin io-n-a
+
+# Push your changes to the remote io-n-a branch
 git push -u origin io-n-a
