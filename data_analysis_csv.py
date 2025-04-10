@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 1. Read the data
-df = pd.read_excel("original_data.xlsx")
+df = pd.read_excel("original_data.csv")
 
 # 2. Compute monthly excess returns
 df["excess_mkt"] = df["rmkt"] - df["rf"]
