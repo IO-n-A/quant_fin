@@ -1,0 +1,626 @@
+(mit_computation) PS C:\Users\Jonas\code\vscode> & C:/ProgramData/miniconda3/envs/mit_computation/python.exe c:/Users/Jonas/code/vscode/quant_fin/data_analysis_csv.py
+Working Directory: c:\Users\Jonas\code\vscode\quant_fin
+Traceback (most recent call last):
+  File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'rmkt'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\Jonas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
+    df['excess_market'] = df['rmkt'] - df['rf']
+                          ~~^^^^^^^^
+  File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+    raise KeyError(key) from err
+KeyError: 'rmkt'
+(mit_computation) PS C:\Users\Jonas\code\vscode> Working Directory: c:\Users\Jonas\code\vscode\quant_fin
+>> Traceback (most recent call last):
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+>>     return self._engine.get_loc(casted_key)
+>>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+>>   File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>> KeyError: 'rmkt'
+>> 
+>> The above exception was the direct cause of the following exception:
+>>
+>> Traceback (most recent call last):
+>>   File "c:\Users\Jonas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
+>>     df['excess_market'] = df['rmkt'] - df['rf']
+>>                           ~~^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+>>     indexer = self.columns.get_loc(key)
+>>               ^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+>>     raise KeyError(key) from err
+>> KeyError: 'rmkt'
+>> (mit_computation) PS C:\Users\Jonas\code\vscode> 
+Oops, something went wrong.  Please report this bug with the details below.
+Report on GitHub: https://github.com/lzybkr/PSReadLine/issues/new
+-----------------------------------------------------------------------
+Last 200 Keys:
+ o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s / J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . 
+p y Enter
+ & Space C : / P r o g r a m D a t a / m i n i c o n d a 3 / e n v s / m i t _ c o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s / J o n a s / 
+c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . p y Enter
+ Ctrl+v Ctrl+c
+
+Exception:
+System.ArgumentOutOfRangeException: The value must be greater than or equal to zero and less than the console's buffer size in that dimension.
+Parameter name: top
+Actual value was -5.
+   at System.Console.SetCursorPosition(Int32 left, Int32 top)
+   at Microsoft.PowerShell.PSConsoleReadLine.ReallyRender(RenderData renderData, String defaultColor)
+   at Microsoft.PowerShell.PSConsoleReadLine.ForceRender()
+   at Microsoft.PowerShell.PSConsoleReadLine.CancelLine(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.CopyOrCancelLine(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.ProcessOneKey(ConsoleKeyInfo key, Dictionary`2 dispatchTable, Boolean ignoreIfNoAction, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.InputLoop()
+   at Microsoft.PowerShell.PSConsoleReadLine.ReadLine(Runspace runspace, EngineIntrinsics engineIntrinsics)
+-----------------------------------------------------------------------
+(mit_computation) PS C:\Users\Jonas\code\vscode> Working Directory: c:\Users\Jonas\code\vscode\quant_fin
+>> Traceback (most recent call last):
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+>>     return self._engine.get_loc(casted_key)
+>>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+>>   File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>> KeyError: 'rmkt'
+>> 
+>> The above exception was the direct cause of the following exception:
+>>
+>> Traceback (most recent call last):
+>>   File "c:\Users\Jonas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
+>>     df['excess_market'] = df['rmkt'] - df['rf']
+>>                           ~~^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+>>     indexer = self.columns.get_loc(key)
+>>               ^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+>>     raise KeyError(key) from err
+>> KeyError: 'rmkt'
+>> (mit_computation) PS C:\Users\Jonas\code\vscode> 
+Oops, something went wrong.  Please report this bug with the details below.
+Report on GitHub: https://github.com/lzybkr/PSReadLine/issues/new
+-----------------------------------------------------------------------
+Last 200 Keys:
+ m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s / J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . p 
+y Enter
+ & Space C : / P r o g r a m D a t a / m i n i c o n d a 3 / e n v s / m i t _ c o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s / J o n a s / 
+c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . p y Enter
+ Ctrl+v Ctrl+c &
+
+Exception:
+System.ArgumentOutOfRangeException: The value must be greater than or equal to zero and less than the console's buffer size in that dimension.
+Parameter name: top
+Actual value was -5.
+   at System.Console.SetCursorPosition(Int32 left, Int32 top)
+   at Microsoft.PowerShell.PSConsoleReadLine.ReallyRender(RenderData renderData, String defaultColor)
+   at Microsoft.PowerShell.PSConsoleReadLine.ForceRender()
+   at Microsoft.PowerShell.PSConsoleReadLine.Insert(Char c)
+   at Microsoft.PowerShell.PSConsoleReadLine.SelfInsert(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.ProcessOneKey(ConsoleKeyInfo key, Dictionary`2 dispatchTable, Boolean ignoreIfNoAction, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.InputLoop()
+   at Microsoft.PowerShell.PSConsoleReadLine.ReadLine(Runspace runspace, EngineIntrinsics engineIntrinsics)
+-----------------------------------------------------------------------
+(mit_computation) PS C:\Users\Jonas\code\vscode> Working Directory: c:\Users\Jonas\code\vscode\quant_fin
+>> Traceback (most recent call last):
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+>>     return self._engine.get_loc(casted_key)
+>>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+>>   File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>> KeyError: 'rmkt'
+>> 
+>> The above exception was the direct cause of the following exception:
+>>
+>> Traceback (most recent call last):
+>>   File "c:\Users\Jonas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
+>>     df['excess_market'] = df['rmkt'] - df['rf']
+>>                           ~~^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+>>     indexer = self.columns.get_loc(key)
+>>               ^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+>>     raise KeyError(key) from err
+>> KeyError: 'rmkt'
+>> (mit_computation) PS C:\Users\Jonas\code\vscode> &
+Oops, something went wrong.  Please report this bug with the details below.
+Report on GitHub: https://github.com/lzybkr/PSReadLine/issues/new
+-----------------------------------------------------------------------
+Last 200 Keys:
+ o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s / J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . 
+p y Enter
+ Ctrl+v Ctrl+c & Space C : / P r o g r a m D a t a / m i n i c o n d a 3 / e n v s / m i t _ c o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s 
+/ J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . p y Enter
+
+
+Exception:
+System.ArgumentOutOfRangeException: The value must be greater than or equal to zero and less than the console's buffer size in that dimension.
+Parameter name: top
+Actual value was -5.
+   at System.Console.SetCursorPosition(Int32 left, Int32 top)
+   at Microsoft.PowerShell.PSConsoleReadLine.ReallyRender(RenderData renderData, String defaultColor)
+   at Microsoft.PowerShell.PSConsoleReadLine.ForceRender()
+   at Microsoft.PowerShell.PSConsoleReadLine.Insert(Char c)
+   at Microsoft.PowerShell.PSConsoleReadLine.SelfInsert(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.ProcessOneKey(ConsoleKeyInfo key, Dictionary`2 dispatchTable, Boolean ignoreIfNoAction, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.InputLoop()
+   at Microsoft.PowerShell.PSConsoleReadLine.ReadLine(Runspace runspace, EngineIntrinsics engineIntrinsics)
+-----------------------------------------------------------------------
+(mit_computation) PS C:\Users\Jonas\code\vscode> Working Directory: c:\Users\Jonas\code\vscode\quant_fin
+>> Traceback (most recent call last):
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+>>     return self._engine.get_loc(casted_key)
+>>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+>>   File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>> KeyError: 'rmkt'
+>> 
+>> The above exception was the direct cause of the following exception:
+>>
+>> Traceback (most recent call last):
+>>   File "c:\Users\Jonas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
+>>     df['excess_market'] = df['rmkt'] - df['rf']
+>>                           ~~^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+>>     indexer = self.columns.get_loc(key)
+>>               ^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+>>     raise KeyError(key) from err
+>> KeyError: 'rmkt'
+>> (mit_computation) PS C:\Users\Jonas\code\vscode> & C:/ProgramData/miniconda3/envs/mit_computation/python.exe c:/Users/Jonas/code/vscode/quant_fin/data_analys
+Oops, something went wrong.  Please report this bug with the details below.
+Report on GitHub: https://github.com/lzybkr/PSReadLine/issues/new
+-----------------------------------------------------------------------
+Last 200 Keys:
+ o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s / J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . 
+p y Enter
+ Ctrl+v Ctrl+c & Space C : / P r o g r a m D a t a / m i n i c o n d a 3 / e n v s / m i t _ c o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s 
+/ J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . p y Enter
+
+
+Exception:
+System.ArgumentOutOfRangeException: The value must be greater than or equal to zero and less than the console's buffer size in that dimension.
+Parameter name: top
+Actual value was -6.
+   at System.Console.SetCursorPosition(Int32 left, Int32 top)
+   at Microsoft.PowerShell.PSConsoleReadLine.ReallyRender(RenderData renderData, String defaultColor)
+   at Microsoft.PowerShell.PSConsoleReadLine.ForceRender()
+   at Microsoft.PowerShell.PSConsoleReadLine.Insert(Char c)
+   at Microsoft.PowerShell.PSConsoleReadLine.SelfInsert(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.ProcessOneKey(ConsoleKeyInfo key, Dictionary`2 dispatchTable, Boolean ignoreIfNoAction, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.InputLoop()
+   at Microsoft.PowerShell.PSConsoleReadLine.ReadLine(Runspace runspace, EngineIntrinsics engineIntrinsics)
+-----------------------------------------------------------------------
+(mit_computation) PS C:\Users\Jonas\code\vscode> Working Directory: c:\Users\Jonas\code\vscode\quant_fin
+>> Traceback (most recent call last):
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+>>     return self._engine.get_loc(casted_key)
+>>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+>>   File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>> KeyError: 'rmkt'
+>> 
+>> The above exception was the direct cause of the following exception:
+>>
+>> Traceback (most recent call last):
+>>   File "c:\Users\Jonas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
+>>     df['excess_market'] = df['rmkt'] - df['rf']
+>>                           ~~^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+>>     indexer = self.columns.get_loc(key)
+>>               ^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+>>     raise KeyError(key) from err
+>> KeyError: 'rmkt'
+>> (mit_computation) PS C:\Users\Jonas\code\vscode> & C:/ProgramData/miniconda3/envs/mit_computation/python.exe c:/Users/Jonas/code/vscode/quant_fin/data_analysi
+Oops, something went wrong.  Please report this bug with the details below.
+Report on GitHub: https://github.com/lzybkr/PSReadLine/issues/new
+-----------------------------------------------------------------------
+Last 200 Keys:
+ o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s / J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . 
+p y Enter
+ Ctrl+v Ctrl+c & Space C : / P r o g r a m D a t a / m i n i c o n d a 3 / e n v s / m i t _ c o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s 
+/ J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . p y Enter
+
+
+Exception:
+System.ArgumentOutOfRangeException: The value must be greater than or equal to zero and less than the console's buffer size in that dimension.
+Parameter name: top
+Actual value was -6.
+   at System.Console.SetCursorPosition(Int32 left, Int32 top)
+   at Microsoft.PowerShell.PSConsoleReadLine.ReallyRender(RenderData renderData, String defaultColor)
+   at Microsoft.PowerShell.PSConsoleReadLine.ForceRender()
+   at Microsoft.PowerShell.PSConsoleReadLine.Insert(Char c)
+   at Microsoft.PowerShell.PSConsoleReadLine.SelfInsert(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.ProcessOneKey(ConsoleKeyInfo key, Dictionary`2 dispatchTable, Boolean ignoreIfNoAction, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.InputLoop()
+   at Microsoft.PowerShell.PSConsoleReadLine.ReadLine(Runspace runspace, EngineIntrinsics engineIntrinsics)
+-----------------------------------------------------------------------
+(mit_computation) PS C:\Users\Jonas\code\vscode> Working Directory: c:\Users\Jonas\code\vscode\quant_fin
+>> Traceback (most recent call last):
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+>>     return self._engine.get_loc(casted_key)
+>>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+>>   File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>> KeyError: 'rmkt'
+>> 
+>> The above exception was the direct cause of the following exception:
+>>
+>> Traceback (most recent call last):
+>>   File "c:\Users\Jonas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
+>>     df['excess_market'] = df['rmkt'] - df['rf']
+>>                           ~~^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+>>     indexer = self.columns.get_loc(key)
+>>               ^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+>>     raise KeyError(key) from err
+>> KeyError: 'rmkt'
+>> (mit_computation) PS C:\Users\Jonas\code\vscode> & C:/ProgramData/miniconda3/envs/mit_computation/python.exe c:/Users/Jonas/code/vscode/quant_fin/data_analysis
+Oops, something went wrong.  Please report this bug with the details below.
+Report on GitHub: https://github.com/lzybkr/PSReadLine/issues/new
+-----------------------------------------------------------------------
+Last 200 Keys:
+ o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s / J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . 
+p y Enter
+ Ctrl+v Ctrl+c & Space C : / P r o g r a m D a t a / m i n i c o n d a 3 / e n v s / m i t _ c o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s 
+/ J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . p y Enter
+
+
+Exception:
+System.ArgumentOutOfRangeException: The value must be greater than or equal to zero and less than the console's buffer size in that dimension.
+Parameter name: top
+Actual value was -6.
+   at System.Console.SetCursorPosition(Int32 left, Int32 top)
+   at Microsoft.PowerShell.PSConsoleReadLine.ReallyRender(RenderData renderData, String defaultColor)
+   at Microsoft.PowerShell.PSConsoleReadLine.ForceRender()
+   at Microsoft.PowerShell.PSConsoleReadLine.Insert(Char c)
+   at Microsoft.PowerShell.PSConsoleReadLine.SelfInsert(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.ProcessOneKey(ConsoleKeyInfo key, Dictionary`2 dispatchTable, Boolean ignoreIfNoAction, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.InputLoop()
+   at Microsoft.PowerShell.PSConsoleReadLine.ReadLine(Runspace runspace, EngineIntrinsics engineIntrinsics)
+-----------------------------------------------------------------------
+(mit_computation) PS C:\Users\Jonas\code\vscode> Working Directory: c:\Users\Jonas\code\vscode\quant_fin
+>> Traceback (most recent call last):
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+>>     return self._engine.get_loc(casted_key)
+>>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+>>   File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>> KeyError: 'rmkt'
+>> 
+>> The above exception was the direct cause of the following exception:
+>>
+>> Traceback (most recent call last):
+>>   File "c:\Users\Jonas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
+>>     df['excess_market'] = df['rmkt'] - df['rf']
+>>                           ~~^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+>>     indexer = self.columns.get_loc(key)
+>>               ^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+>>     raise KeyError(key) from err
+>> KeyError: 'rmkt'
+>> (mit_computation) PS C:\Users\Jonas\code\vscode> & C:/ProgramData/miniconda3/envs/mit_computation/python.exe c:/Users/Jonas/code/vscode/quant_fin/data_analysis_
+Oops, something went wrong.  Please report this bug with the details below.
+Report on GitHub: https://github.com/lzybkr/PSReadLine/issues/new
+-----------------------------------------------------------------------
+Last 200 Keys:
+ o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s / J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . 
+p y Enter
+ Ctrl+v Ctrl+c & Space C : / P r o g r a m D a t a / m i n i c o n d a 3 / e n v s / m i t _ c o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s 
+/ J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . p y Enter
+
+
+Exception:
+System.ArgumentOutOfRangeException: The value must be greater than or equal to zero and less than the console's buffer size in that dimension.
+Parameter name: top
+Actual value was -6.
+   at System.Console.SetCursorPosition(Int32 left, Int32 top)
+   at Microsoft.PowerShell.PSConsoleReadLine.ReallyRender(RenderData renderData, String defaultColor)
+   at Microsoft.PowerShell.PSConsoleReadLine.ForceRender()
+   at Microsoft.PowerShell.PSConsoleReadLine.Insert(Char c)
+   at Microsoft.PowerShell.PSConsoleReadLine.SelfInsert(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.ProcessOneKey(ConsoleKeyInfo key, Dictionary`2 dispatchTable, Boolean ignoreIfNoAction, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.InputLoop()
+   at Microsoft.PowerShell.PSConsoleReadLine.ReadLine(Runspace runspace, EngineIntrinsics engineIntrinsics)
+-----------------------------------------------------------------------
+(mit_computation) PS C:\Users\Jonas\code\vscode> Working Directory: c:\Users\Jonas\code\vscode\quant_fin
+>> Traceback (most recent call last):
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+>>     return self._engine.get_loc(casted_key)
+>>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+>>   File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>> KeyError: 'rmkt'
+>> 
+>> The above exception was the direct cause of the following exception:
+>>
+>> Traceback (most recent call last):
+>>   File "c:\Users\Jonas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
+>>     df['excess_market'] = df['rmkt'] - df['rf']
+>>                           ~~^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+>>     indexer = self.columns.get_loc(key)
+>>               ^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+>>     raise KeyError(key) from err
+>> KeyError: 'rmkt'
+>> (mit_computation) PS C:\Users\Jonas\code\vscode> & C:/ProgramData/miniconda3/envs/mit_computation/python.exe c:/Users/Jonas/code/vscode/quant_fin/data_analysis_c
+Oops, something went wrong.  Please report this bug with the details below.
+Report on GitHub: https://github.com/lzybkr/PSReadLine/issues/new
+-----------------------------------------------------------------------
+Last 200 Keys:
+ o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s / J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . 
+p y Enter
+ Ctrl+v Ctrl+c & Space C : / P r o g r a m D a t a / m i n i c o n d a 3 / e n v s / m i t _ c o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s 
+/ J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . p y Enter
+
+
+Exception:
+System.ArgumentOutOfRangeException: The value must be greater than or equal to zero and less than the console's buffer size in that dimension.
+Parameter name: top
+Actual value was -6.
+   at System.Console.SetCursorPosition(Int32 left, Int32 top)
+   at Microsoft.PowerShell.PSConsoleReadLine.ReallyRender(RenderData renderData, String defaultColor)
+   at Microsoft.PowerShell.PSConsoleReadLine.ForceRender()
+   at Microsoft.PowerShell.PSConsoleReadLine.Insert(Char c)
+   at Microsoft.PowerShell.PSConsoleReadLine.SelfInsert(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.ProcessOneKey(ConsoleKeyInfo key, Dictionary`2 dispatchTable, Boolean ignoreIfNoAction, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.InputLoop()
+   at Microsoft.PowerShell.PSConsoleReadLine.ReadLine(Runspace runspace, EngineIntrinsics engineIntrinsics)
+-----------------------------------------------------------------------
+(mit_computation) PS C:\Users\Jonas\code\vscode> Working Directory: c:\Users\Jonas\code\vscode\quant_fin
+>> Traceback (most recent call last):
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+>>     return self._engine.get_loc(casted_key)
+>>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+>>   File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>> KeyError: 'rmkt'
+>> 
+>> The above exception was the direct cause of the following exception:
+>>
+>> Traceback (most recent call last):
+>>   File "c:\Users\Jonas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
+>>     df['excess_market'] = df['rmkt'] - df['rf']
+>>                           ~~^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+>>     indexer = self.columns.get_loc(key)
+>>               ^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+>>     raise KeyError(key) from err
+>> KeyError: 'rmkt'
+>> (mit_computation) PS C:\Users\Jonas\code\vscode> & C:/ProgramData/miniconda3/envs/mit_computation/python.exe c:/Users/Jonas/code/vscode/quant_fin/data_analysis_cs
+Oops, something went wrong.  Please report this bug with the details below.
+Report on GitHub: https://github.com/lzybkr/PSReadLine/issues/new
+-----------------------------------------------------------------------
+Last 200 Keys:
+ o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s / J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . 
+p y Enter
+ Ctrl+v Ctrl+c & Space C : / P r o g r a m D a t a / m i n i c o n d a 3 / e n v s / m i t _ c o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s 
+/ J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . p y Enter
+
+
+Exception:
+System.ArgumentOutOfRangeException: The value must be greater than or equal to zero and less than the console's buffer size in that dimension.
+Parameter name: top
+Actual value was -6.
+   at System.Console.SetCursorPosition(Int32 left, Int32 top)
+   at Microsoft.PowerShell.PSConsoleReadLine.ReallyRender(RenderData renderData, String defaultColor)
+   at Microsoft.PowerShell.PSConsoleReadLine.ForceRender()
+   at Microsoft.PowerShell.PSConsoleReadLine.Insert(Char c)
+   at Microsoft.PowerShell.PSConsoleReadLine.SelfInsert(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.ProcessOneKey(ConsoleKeyInfo key, Dictionary`2 dispatchTable, Boolean ignoreIfNoAction, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.InputLoop()
+   at Microsoft.PowerShell.PSConsoleReadLine.ReadLine(Runspace runspace, EngineIntrinsics engineIntrinsics)
+-----------------------------------------------------------------------
+(mit_computation) PS C:\Users\Jonas\code\vscode> Working Directory: c:\Users\Jonas\code\vscode\quant_fin
+>> Traceback (most recent call last):
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+>>     return self._engine.get_loc(casted_key)
+>>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+>>   File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>> KeyError: 'rmkt'
+>> 
+>> The above exception was the direct cause of the following exception:
+>> 
+>> Traceback (most recent call last):
+>>   File "c:\Users\Jonas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
+>>     df['excess_market'] = df['rmkt'] - df['rf']
+>>                           ~~^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+>>     indexer = self.columns.get_loc(key)
+>>               ^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+>>     raise KeyError(key) from err
+>> KeyError: 'rmkt'
+>> (mit_computation) PS C:\Users\Jonas\code\vscode> & C:/ProgramData/miniconda3/envs/mit_computation/python.exe c:/Users/Jonas/code/vscode/quant_fin/data_analysis_csv
+Oops, something went wrong.  Please report this bug with the details below.
+Report on GitHub: https://github.com/lzybkr/PSReadLine/issues/new
+-----------------------------------------------------------------------
+Last 200 Keys:
+ o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s / J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . 
+p y Enter
+ Ctrl+v Ctrl+c & Space C : / P r o g r a m D a t a / m i n i c o n d a 3 / e n v s / m i t _ c o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s 
+/ J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . p y Enter
+
+
+Exception:
+System.ArgumentOutOfRangeException: The value must be greater than or equal to zero and less than the console's buffer size in that dimension.
+Parameter name: top
+Actual value was -6.
+   at System.Console.SetCursorPosition(Int32 left, Int32 top)
+   at Microsoft.PowerShell.PSConsoleReadLine.ReallyRender(RenderData renderData, String defaultColor)
+   at Microsoft.PowerShell.PSConsoleReadLine.ForceRender()
+   at Microsoft.PowerShell.PSConsoleReadLine.Insert(Char c)
+   at Microsoft.PowerShell.PSConsoleReadLine.SelfInsert(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.ProcessOneKey(ConsoleKeyInfo key, Dictionary`2 dispatchTable, Boolean ignoreIfNoAction, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.InputLoop()
+   at Microsoft.PowerShell.PSConsoleReadLine.ReadLine(Runspace runspace, EngineIntrinsics engineIntrinsics)
+-----------------------------------------------------------------------
+(mit_computation) PS C:\Users\Jonas\code\vscode> Working Directory: c:\Users\Jonas\code\vscode\quant_fin
+>> Traceback (most recent call last):
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+>>     return self._engine.get_loc(casted_key)
+>>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+>>   File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>> KeyError: 'rmkt'
+>> 
+>> The above exception was the direct cause of the following exception:
+>>
+>> Traceback (most recent call last):
+>>   File "c:\Users\Jonas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
+>>     df['excess_market'] = df['rmkt'] - df['rf']
+>>                           ~~^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+>>     indexer = self.columns.get_loc(key)
+>>               ^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+>>     raise KeyError(key) from err
+>> KeyError: 'rmkt'
+>> (mit_computation) PS C:\Users\Jonas\code\vscode> & C:/ProgramData/miniconda3/envs/mit_computation/python.exe c:/Users/Jonas/code/vscode/quant_fin/data_analysis_csv.
+Oops, something went wrong.  Please report this bug with the details below.
+Report on GitHub: https://github.com/lzybkr/PSReadLine/issues/new
+-----------------------------------------------------------------------
+Last 200 Keys:
+ o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s / J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . 
+p y Enter
+ Ctrl+v Ctrl+c & Space C : / P r o g r a m D a t a / m i n i c o n d a 3 / e n v s / m i t _ c o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s 
+/ J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . p y Enter
+
+
+Exception:
+System.ArgumentOutOfRangeException: The value must be greater than or equal to zero and less than the console's buffer size in that dimension.
+Parameter name: top
+Actual value was -6.
+   at System.Console.SetCursorPosition(Int32 left, Int32 top)
+   at Microsoft.PowerShell.PSConsoleReadLine.ReallyRender(RenderData renderData, String defaultColor)
+   at Microsoft.PowerShell.PSConsoleReadLine.ForceRender()
+   at Microsoft.PowerShell.PSConsoleReadLine.Insert(Char c)
+   at Microsoft.PowerShell.PSConsoleReadLine.SelfInsert(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.ProcessOneKey(ConsoleKeyInfo key, Dictionary`2 dispatchTable, Boolean ignoreIfNoAction, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.InputLoop()
+   at Microsoft.PowerShell.PSConsoleReadLine.ReadLine(Runspace runspace, EngineIntrinsics engineIntrinsics)
+-----------------------------------------------------------------------
+(mit_computation) PS C:\Users\Jonas\code\vscode> Working Directory: c:\Users\Jonas\code\vscode\quant_fin
+>> Traceback (most recent call last):
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+>>     return self._engine.get_loc(casted_key)
+>>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+>>   File "index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>> KeyError: 'rmkt'
+>> 
+>> The above exception was the direct cause of the following exception:
+>>
+>> Traceback (most recent call last):
+>>   File "c:\Users\Jonas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
+>>     df['excess_market'] = df['rmkt'] - df['rf']
+>>                           ~~^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+>>     indexer = self.columns.get_loc(key)
+>>               ^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+>>     raise KeyError(key) from err
+>> KeyError: 'rmkt'
+>> (mit_computation) PS C:\Users\Jonas\code\vscode> & C:/ProgramData/miniconda3/envs/mit_computation/python.exe c:/Users/Jonas/code/vscode/quant_fin/data_analysis_csv.p
+Oops, something went wrong.  Please report this bug with the details below.
+Report on GitHub: https://github.com/lzybkr/PSReadLine/issues/new
+-----------------------------------------------------------------------
+Last 200 Keys:
+ o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s / J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . 
+p y Enter
+ Ctrl+v Ctrl+c & Space C : / P r o g r a m D a t a / m i n i c o n d a 3 / e n v s / m i t _ c o m p u t a t i o n / p y t h o n . e x e Space c : / U s e r s 
+/ J o n a s / c o d e / v s c o d e / q u a n t _ f i n / d a t a _ a n a l y s i s _ c s v . p y Enter
+
+
+Exception:
+System.ArgumentOutOfRangeException: The value must be greater than or equal to zero and less than the console's buffer size in that dimension.
+Parameter name: top
+Actual value was -6.
+   at System.Console.SetCursorPosition(Int32 left, Int32 top)
+   at Microsoft.PowerShell.PSConsoleReadLine.ReallyRender(RenderData renderData, String defaultColor)
+   at Microsoft.PowerShell.PSConsoleReadLine.ForceRender()
+   at Microsoft.PowerShell.PSConsoleReadLine.Insert(Char c)
+   at Microsoft.PowerShell.PSConsoleReadLine.SelfInsert(Nullable`1 key, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.ProcessOneKey(ConsoleKeyInfo key, Dictionary`2 dispatchTable, Boolean ignoreIfNoAction, Object arg)
+   at Microsoft.PowerShell.PSConsoleReadLine.InputLoop()
+   at Microsoft.PowerShell.PSConsoleReadLine.ReadLine(Runspace runspace, EngineIntrinsics engineIntrinsics)
+-----------------------------------------------------------------------
+(mit_computation) PS C:\Users\Jonas\code\vscode> Working Directory: c:\Users\Jonas\code\vscode\quant_fin
+>> Traceback (most recent call last):
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3805, in get_loc
+>>     return self._engine.get_loc(casted_key)
+>>            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7081, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>>   File "pandas\\_libs\\hashtable_class_helper.pxi", line 7089, in pandas._libs.hashtable.PyObjectHashTable.get_item
+>> KeyError: 'rmkt'
+>> 
+>> The above exception was the direct cause of the following exception:
+>>
+>> Traceback (most recent call last):
+>>   File "c:\Users\Jonas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
+>>     df['excess_market'] = df['rmkt'] - df['rf']
+>>                           ~~^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\frame.py", line 4102, in __getitem__
+>>     indexer = self.columns.get_loc(key)
+>>               ^^^^^^^^^^^^^^^^^^^^^^^^^
+>>   File "C:\ProgramData\miniconda3\envs\mit_computation\Lib\site-packages\pandas\core\indexes\base.py", line 3812, in get_loc
+>>     raise KeyError(key) from err
+>> KeyError: 'rmkt'
+>> (mit_computation) PS C:\Users\Jonas\code\vscode> & C:/ProgramData/miniconda3/envs/mit_computation/python.exe c:/Users/Jonas/code/vscode/quant_fin/data_analysis_csv.py
+r(key) from err\x0aKeyError: 'rmkt'\x0a(mit_computation) PS C:\x5cUsers\x5cJonas\x5ccode\x5cvscode> & C:/ProgramData/miniconda3/envs/mit_computation/python.exe c:/Users/Jonas/code/vscode/quant_fin/data_analysis_csv.py;02553e39-f2ce-4303-8832-43a0c0b5719e]633;CAt line:15 char:81
++ ... nas\code\vscode\quant_fin\data_analysis_csv.py", line 20, in <module>
++                                                                  ~
+The '<' operator is reserved for future use.
+At line:24 char:19
++ (mit_computation) PS C:\Users\Jonas\code\vscode> & C:/ProgramData/min ...
++                   ~~
+Unexpected token 'PS' in expression or statement.
+At line:24 char:50
++ (mit_computation) PS C:\Users\Jonas\code\vscode> & C:/ProgramData/min ...
++                                                  ~
+The ampersand (&) character is not allowed. The & operator is reserved for future use; wrap an ampersand in double quotation marks ("&") to pass it as part    
+of a string.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : RedirectionNotSupported
