@@ -1,0 +1,25 @@
+﻿Umsätze
+Konto;Filial-/Kontonummer;IBAN;Währung
+FYRST BASE;362 4816609 00;DE04100100100959653102;EUR
+
+22.1.2025 - 22.4.2025
+Letzter Kontostand;;;;176,89;EUR
+Vorgemerkte und noch nicht gebuchte Umsätze sind nicht Bestandteil dieser Übersicht.
+Buchungstag;Wert;Umsatzart;Begünstigter / Auftraggeber;Verwendungszweck;IBAN / Kontonummer;BIC;Kundenreferenz;Mandatsreferenz;Gläubiger ID;Fremde Gebühren;Betrag;Abweichender Empfänger;Anzahl der Aufträge;Anzahl der Schecks;Soll;Haben;Währung
+22.4.2025;22.4.2025;SEPA Überweisung;Nerges Wali;Arman Wali (Nachhilfe );DE31701500000056134190;;NOTPROVIDED;;;;200;;;;;200;EUR
+22.4.2025;19.4.2025;SEPA Echtzeitüberweisung;Jonas Heldt;V-Geld;DE91120300001006861502;;NOTPROVIDED;;;;-20;;;;-20;;EUR
+16.4.2025;16.4.2025;SEPA Echtzeitüberweisung;Bezirksamt Neukölln;Aktenzeichen 08/Z/OW/015122-25 Kassenzeichen 2538.000.313.367;DE10100500001410003805;;NOTPROVIDED;;;;-55;;;;-55;;EUR
+16.4.2025;16.4.2025;SEPA Echtzeitüberweisung;MOTEL Film GmbH;V-Geld;DE46100100100981941103;;NOTPROVIDED;;;;55;;;;;55;EUR
+10.4.2025;31.3.2025;Zinsen/Kosten/Auslagen;;Korrektur Rechnungsabschluss wg. Freiposten. Erstattung Entgelte f. Kon tofuehrung M rz  2025 362/4816609/00;;;;;;;0,19;;;;;0,19;EUR
+31.3.2025;31.3.2025;Kontoabrechnung;;Saldo der Abschlussposten QM - Support       04082 Leipzig  Kontoabschluss     März 25    FYRST BASE (Kontoführung)        2 beleglose Freiposten                              0,00 S        1 SEPA Echtzeitüberw.                              0,19 SSaldo der Abschlussposten   EUR                              0,19 S;;;;;;;-0,19;;;;-0,19;;EUR
+27.3.2025;27.3.2025;SEPA Überweisung;Riverty;032100079118758;DE73478400650158014102;;NOTPROVIDED;;;;-22,96;;;;-22,96;;EUR
+10.3.2025;10.3.2025;SEPA Echtzeitüberweisung;Jonas Heldt;V-Geld;DE91120300001006861502;;NOTPROVIDED;;;;-75;;;;-75;;EUR
+10.3.2025;10.3.2025;SEPA Echtzeitüberweisung;MOTEL Film GmbH;V-Geld Post;DE46100100100981941103;;NOTPROVIDED;;;;75,8;;;;;75,8;EUR
+28.2.2025;31.1.2025;Zinsen/Kosten/Auslagen;;Korrektur Rechnungsabschluss wg. Freiposten. Erstattung Entgelte f. Kon tofuehrung Januar 2025 362/4816609/00;;;;;;;0,57;;;;;0,57;EUR
+17.2.2025;17.2.2025;SEPA Überweisung;SUPERPROF;superprof;FR7630004008220001070856666;;testsp2025-02-13308062;;;;0,16;;;;;0,16;EUR
+31.1.2025;31.1.2025;Kontoabrechnung;;Saldo der Abschlussposten QM - Support       04082 Leipzig  Kontoabschluss     Januar 25    FYRST BASE (Kontoführung)        6 beleglose Freiposten                              0,00 S        3 SEPA Echtzeitüberw.                              0,57 SSaldo der Abschlussposten   EUR                              0,57 S;;;;;;;-0,57;;;;-0,57;;EUR
+31.1.2025;31.1.2025;SEPA Lastschrift;BSPORT S.A.S;Chimosa;IE30CITI99005132956548;;STR16NARFTLMQ5HNCTS0BRAN5EK1OPHIYF;FROEGBZU9ZCQKQUX;FR13ZZZ86510C;;-25;;;;-25;;EUR
+29.1.2025;29.1.2025;SEPA Echtzeitüberweisung;MOTEL Film GmbH;V-Geld;DE46100100100981941103;;NOTPROVIDED;;;;25;;;;;25;EUR
+22.1.2025;22.1.2025;SEPA Überweisung;Riverty für Amazon;032100079118758;DE73478400650158014102;;NOTPROVIDED;;;;-32,95;;;;-32,95;;EUR
+22.1.2025;22.1.2025;SEPA Echtzeitüberweisung;Jonas Heldt;V-Geld;DE91120300001006861502;;NOTPROVIDED;;;;-100;;;;-100;;EUR
+Kontostand;22.4.2025;;;201,94;EUR
